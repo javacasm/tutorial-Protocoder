@@ -2,7 +2,9 @@
 
 Protocoder es un entorno de desarrollo para Android que nos permite utilizar javascript para crear aplicaciones rápidamente
 
-Nos facilita el acceso al hardware del dispositivo: bluetooth, ¿cámara?, red...
+Nos facilita el acceso al hardware del dispositivo: bluetooth, cámara, red a los distintos subsistemas del terminal: reconocimiento de voz, TextToSpeech (lectura de contenidos por voz) así como a dispositivos conectados (arduino o similares)
+
+En definitiva nos permite utilizar nuestro teléfono como centro de procesamiento de la información disponible
 
 Para utilizarlo sólo hay que instalar en nuestro dispositivo Android de Protocoder y tendremos acceso web a un potente entorno de desarrollo desde cualquier otro dispositivo que esté conectado a la misma red Wifi o al puerto USB sin más que acceder a la web que nos indica la aplicación al arrancar.
 
@@ -20,7 +22,7 @@ Podemos conectar otras placas externas como arduino e intercambiar datos, contro
 
 Permite depurar nuestro código línea a línea !(depuración)|[file:///home/javacasm/Dropbox/1_proyectos/bq/protocoder/Protocoder%20%20%20Hardware%20and%20software%20prototyping%20for%20Android%20devices_files/protocoder_livecoding.gif]
 
-
+Con esta aplicación tenemos todo lo necesario para programar en cualquier parte
 
 ## Instalación
 
@@ -32,8 +34,9 @@ Para usarla necesitamos un dispositivo con Android 4.0 o posterior.
 
 	* Ejecutamos la aplicación Protocoder y en un navegador en el ordenador conectamos a la dirección que nos indica la aplicación (o por usb)
 
-	* Para conectar vía USB usamos
+	* Para conectar vía USB usamos **¿Permitir Depuración usb?**
 
 	adb forward tcp:8585 tcp:8585
 	adb forward tcp:8587 tcp:8587
-	
+
+(ejemplo protocoder)[captura ejemplo protocoder.png]
