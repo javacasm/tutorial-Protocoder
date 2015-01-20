@@ -39,15 +39,15 @@ Con esta aplicación tenemos todo lo necesario para programar en cualquier parte
 
 ## Instalación
 
-Para usarla necesitamos un dispositivo con Android 4.0 o posterior.
+Para usar Protocoder necesitamos un dispositivo con Android 4.0 o posterior y un ordenador donde ejecutaremos un navegador que usaremos como editor de la programación.
 
-	* Descargamos la (aplicación básica)|[http://www.protocoder.org/downloads/protocoder-normal-0_97.apk] o la (extendida)|[http://www.protocoder.org/downloads/protocoder-extended-0_97.apk] (que incluye el acceso al envío de SMS) y la instalamos.
+1. Descargamos la (aplicación básica)|[http://www.protocoder.org/downloads/protocoder-normal-0_97.apk] o la (extendida)|[http://www.protocoder.org/downloads/protocoder-extended-0_97.apk] (que incluye el acceso al envío de SMS) y la instalamos.
 
-	* Conectamos nuestro ordenador y nuestro Android a la misma red  o por medio de cable.
+2. Conectamos nuestro ordenador y nuestro Android a la misma red  o por medio de cable USB.
 
-	* Ejecutamos la aplicación Protocoder y en un navegador en el ordenador conectamos a la dirección que nos indica la aplicación (o por usb)
+3. Ejecutamos la aplicación Protocoder y un navegador en el ordenador que conectaremos a la URL que nos indica la aplicación.
 
-	* Para conectar vía USB usamos **¿Permitir Depuración usb?**
+4. Para conectar vía USB usamos Activamos la depuración usb en el smartphone **¿Permitir Depuración usb?** y ejecutamos en el pc las siguientes líneas
 
 	adb forward tcp:8585 tcp:8585
 	adb forward tcp:8587 tcp:8587
