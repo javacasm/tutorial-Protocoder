@@ -1,6 +1,12 @@
 ## ¿Qué es Protocoder?
 
-Protocoder es un entorno de desarrollo para Android que nos permite utilizar javascript para crear aplicaciones rápidamente
+Protocoder es un entorno de desarrollo para Android que nos permite utilizar javascript para crear aplicacionesAndroid rápidamente
+
+podemis resumur dicuendo que se rrara de  un entorno de desarrollo de apkicacines Android queutilizajavaacepte como  lenguaje y que  inglete e la documentación y ejemplos necesarios en forma  local. usaremos elnavegadorenelpH  pista orensanas de forma muy sencilla apiscina Android que se ejecutarán en el dispositivo Android
+
+se nota quesu desollador hatenidoque trabajar en multitudes de entornosdelo  másdiversidad , con y sin confección 
+
+deahílanecesidadde hacerun entornolocalquEncontra delatendencia actualde emplazarlas Dechuesosenla nubenube
 
 Nos facilita el acceso al hardware del dispositivo: bluetooth, cámara, red a los distintos subsistemas del terminal: reconocimiento de voz, TextToSpeech (lectura de contenidos por voz) así como a dispositivos conectados (arduino o similares)
 
