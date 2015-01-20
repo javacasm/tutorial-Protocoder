@@ -1,0 +1,27 @@
+/*
+*	
+*	Description first test in Protocoder, just a jarvis asistant
+*	by javacasm
+*
+*/
+
+while(true)
+{
+
+
+    media.startVoiceRecognition(function(text) { 
+        console.log(text);
+        if (text=="voz")
+            media.textToSpeech(text);
+        if(text=="foto")
+            camera.takePicture("picture.jpg",function(xx)
+            {
+                console.log(xx);
+            });
+        if(text=="adios")
+        {
+            media.textToSpeech("Sayonara baby");
+            exit;
+        }
+    });
+}
