@@ -49,7 +49,9 @@ Para usar Protocoder necesitamos un dispositivo con Android 4.0 o posterior y un
 
 4. Para conectar vía USB usamos Activamos la depuración usb en el smartphone **¿Permitir Depuración usb?** y ejecutamos en el pc las siguientes líneas
 
+
 	adb forward tcp:8585 tcp:8585
+	
 	adb forward tcp:8587 tcp:8587
 
 ![ejemplo protocoder](http://www.protocoder.org/docs-assets/images/protocoder_ide.png)
