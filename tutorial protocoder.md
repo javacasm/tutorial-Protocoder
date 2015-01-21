@@ -54,4 +54,4 @@ Para usar Protocoder necesitamos un dispositivo con Android 4.0 o posterior y un
 	
 	adb forward tcp:8587 tcp:8587
 
-![ejemplo protocoder](http://www.protocoder.org/docs-assets/images/protocoder_ide.png)
+![ejemplo protocoder](https://raw.githubusercontent.com/javacasm/tutorial-Protocoder/master/captura%20ejemplo%20protocoder.png)
