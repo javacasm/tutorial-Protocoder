@@ -22,18 +22,18 @@ Este entorno de programación web además de un editor y un pequeño menú de la
 
 ** Incluir imagen **
 
-Se han incluido multitud de APIs a las que podemos acceder desde javascript como (Processing)[http://processing.org] (desarrollo visual), (Pure Data)[http://puredata.org], (Open Street Map)[http://openstreetmap.org], ...
+Se han incluido multitud de APIs a las que podemos acceder desde javascript como [Processing](http://processing.org) (desarrollo visual), [Pure Data](http://puredata.org), [Open Street Map](http://openstreetmap.org), ...
 
 También podemos acceder al hardware de nuestro terminal, como el acelerómetro, ....
 
 Todos los proyectos que realicemos (scripts javascript y los ficheros de recursos necesarios, como imágenes, sonidos, etc...)  quedan almacenados dentro de la aplicación y podemos acceder posteriormente a cualquiera de las realizadas (o descargadas) para editarlas o ejecutarlas. ** Verificar esto ** Incluso podemos generar aplicaciones independientes.
 
 Además de usar los recursos del smartphone, podemos conectar otras placas externas como arduino (siempre que nuestro smartphone soporte USB OTG) e intercambiar datos entre ambos, controlándolas o representando gráficamente los contenidos 
-!(grafica de sensores)[file:///home/javacasm/Dropbox/1_proyectos/bq/protocoder/Protocoder%20%20%20Hardware%20and%20software%20prototyping%20for%20Android%20devices_files/]
+![grafica de sensores](http://www.protocoder.org/docs-assets/images/protocoder_dashboard.png)
 
 
 ** Probar y mostrar cómo se hace **
-Otra de las posibilidades es la de depurar nuestro código línea a línea !(depuración)|[file:///home/javacasm/Dropbox/1_proyectos/bq/protocoder/Protocoder%20%20%20Hardware%20and%20software%20prototyping%20for%20Android%20devices_files/protocoder_livecoding.gif]
+Otra de las posibilidades es la de depurar nuestro código línea a línea ![depuración]|(http://www.protocoder.org/docs-assets/images/protocoder_livecoding.gif)
 
 Con esta aplicación tenemos todo lo necesario para programar en cualquier parte
 
@@ -41,7 +41,7 @@ Con esta aplicación tenemos todo lo necesario para programar en cualquier parte
 
 Para usar Protocoder necesitamos un dispositivo con Android 4.0 o posterior y un ordenador donde ejecutaremos un navegador que usaremos como editor de la programación.
 
-1. Descargamos la (aplicación básica)|[http://www.protocoder.org/downloads/protocoder-normal-0_97.apk] o la (extendida)|[http://www.protocoder.org/downloads/protocoder-extended-0_97.apk] (que incluye el acceso al envío de SMS) y la instalamos.
+1. Descargamos la [aplicación básica](http://www.protocoder.org/downloads/protocoder-normal-0_97.apk) o la [extendida](http://www.protocoder.org/downloads/protocoder-extended-0_97.apk) (que incluye el acceso al envío de SMS) y la instalamos.
 
 2. Conectamos nuestro ordenador y nuestro Android a la misma red  o por medio de cable USB.
 
@@ -52,4 +52,4 @@ Para usar Protocoder necesitamos un dispositivo con Android 4.0 o posterior y un
 	adb forward tcp:8585 tcp:8585
 	adb forward tcp:8587 tcp:8587
 
-(ejemplo protocoder)[captura ejemplo protocoder.png]
+![ejemplo protocoder](http://www.protocoder.org/docs-assets/images/protocoder_ide.png)
