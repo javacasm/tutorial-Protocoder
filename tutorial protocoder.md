@@ -88,4 +88,5 @@ Para probarlo he creado un pequeño ejemplo con reconocimiento de voz (al que pr
 	        exit;
 	    }
 	});
-![ejemplo protocoder](https://raw.githubusercontent.com/javacasm/tutorial-Protocoder/master/captura%20ejemplo%20protocoder.png)
+
+Para la próxima entrada dejamos hacer una prueba controlando y comunicando con un arduino.
